@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  }
+  * li {
+    list-style: none;
+  }
+  * a {
+    text-decoration: none;
+  }
+ 
+  .container {
+    min-height: 120vh;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .bg::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%);
+    background-image: url("img/house.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+  }
+  .navBar {
+    height: 60px;
+  background-color: coral;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+  }
+  .navBar ul {
+    display: flex;
+    align-items: center;
+  }
+  .navBar ul li {
+    padding: 0 25px;
+  }
+  .navBar ul li a {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  .navBar .logo a {
+    font-size: 2.3rem;
+    color: #fff;
+  }
+
+  article{
+    text-align: center;
+    color: #fff;
+    background-color: none;
+    width: 33%;
+    height: 450px;
+    margin-right: 90px;
+    margin-top: 60px;
+    border-color: solid red;
+   
+
+  }
+
+
+ section.pictures{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  section.details{
+    margin-top: 20px;
+    background-color: none;
+    color: white;
+    border-radius: 10px;
+    height: 250px;
+    display: flex;
+    justify-content:space-between;
+ 
+    
+  
+
+  }
+
+  .details h1{
+    color: rgb(224, 213, 213);
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+  }
+  .details h3{
+    color: blue;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+figure img{
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    width: 80%;
+    height: 450px;
+    margin-left: 90px;
+    margin-top: 60px;
+  }
+
+  footer{
+
+    background-color: coral;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    height: 80px;
+    
+  }
+
+  .masage{
+    width: 230px;
+    height: 80px;
+  }
+
+  article h2{
+    margin-top: 40px;
+  }
+

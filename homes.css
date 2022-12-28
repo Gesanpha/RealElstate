@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  }
+  * li {
+    list-style: none;
+  }
+  * a {
+    text-decoration: none;
+  }
+ 
+  .container {
+    min-height: 120vh;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .bg::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(45%);
+    background-image: url("img/house.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+  }
+  .navBar {
+    height: 60px;
+  background-color: coral;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+  }
+  .navBar ul {
+    display: flex;
+    align-items: center;
+  }
+  .navBar ul li {
+    padding: 0 25px;
+  }
+  .navBar ul li a {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  .navBar .logo a {
+    font-size: 2.3rem;
+    color: #fff;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+  }
+  .phuket {
+    color: #fff;
+    padding: 25px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  .card h2 {
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+  .card .box1,
+  .box2,
+  .box3,
+  .box6 {
+    width: 90%;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .box1 {
+    background-image: url("https://www.happymindtravels.com/wp-content/uploads/2020/04/patuxai-park-vientiane-laos-happymind-travels.jpg");
+  }
+  .box2 {
+    background-image: url("https://a.cdn-hotels.com/gdcs/production180/d1158/8773c503-0d11-4d16-9d21-4ca85b1006fa.jpg?impolicy=fcrop&w=1600&h=1066&q=medium");
+  }
+  .box3 {
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/c7/e1/6e/caption.jpg?w=700&h=-1&s=1");
+  }
+  .box6 {
+    background-image: url("https://mediaim.expedia.com/destination/1/e3a06fc36b3ed3afc0751cc69ac04076.jpg");
+  }
+  .phuket h2 {
+    font-size: 2rem;
+    letter-spacing: 2.8px;
+  }
+  .text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .txt h1 {
+    font-size: 7rem;
+  }
+  .phuket p {
+    opacity: 0.4;
+  }
+  .tnx h2 i {
+    color: #fd7e13;
+  }
+  .card div {
+    transition: 0.5s;
+  }
+  .card div:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+  
+  .pictures{
+
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  
+  }
+  
+  
+  .pictures figure img{
+    width: 100%;
+    height: 300px;
+  }
+
+  figure {
+    padding: 20px;
+    border-radius: 20px;
+  }
+  figure h4{
+    text-align: center;
+    }
+  figure {
+ 
+    border: 20px solid white;
+  }
+  
+  footer{
+    background-color: coral;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+main{ padding: 3rem 0;
+    background-color: burlywood;}
+
+main > h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 5rem;
+ 
+}
+
+img{
+  margin-bottom: 15px;
+  border-radius: 20px;
+ 
+}

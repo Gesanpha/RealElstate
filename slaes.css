@@ -98,15 +98,52 @@
     margin-bottom: 20px;
   }
   
-main{ padding: 3rem 0;
+ main{ padding: 3rem 0;
     background-color: none;}
 
-main img{
-        border-radius: 20px;
-      }
 main > h1 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: #fff;
+  font-size: 3rem;
+ 
 }
 
+img{
+
+  margin-bottom: 5px;
+  margin-right: 20px;
+  border-radius: 10px;
+  
+
+
+  
+}
+
+figure{
+
+
+  border-radius: 20px;
+  text-align: center;
+}
+
+figcaption{
+
+  border-radius: 10px;
+}
+
+figcaption h3{
+  color: rgb(243, 232, 232);
+  
+}
+
+figcaption p{
+  color: red;
+  
+}
+
+hr{
+  margin-top: 20px;
+
+  background-color: none;
+}
